@@ -6,6 +6,10 @@ authorProjApp.controller('mainController',['$scope', '$location', function ($sco
 
 }]);
 
+authorProjApp.controller('homeController',['$scope', '$location', function ($scope, $location) {
+  $scope.text = "Hello World!!!!";
+  }]);
+
 authorProjApp.controller('aboutController',['$scope', '$location', function ($scope, $location) {
 
 }]);
