@@ -63,6 +63,6 @@
         });
   }]);
 
-  authorProjApp.controller('homeController', function($scope) {
+  authorProjApp.controller('homeController', function($scope, $route) {
     $scope.text = "Hello World!!!!";
   });

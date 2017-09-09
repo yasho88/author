@@ -6,7 +6,7 @@ authorProjApp.controller('mainController',['$scope', '$location', function ($sco
 
 }]);
 
-authorProjApp.controller('homeController',['$scope', '$location', function ($scope, $location) {
+authorProjApp.controller('homeController',['$scope', '$location', function ($scope, $location, $route) {
   $scope.text = "Hello World!!!!";
   }]);
 
