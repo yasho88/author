@@ -1,12 +1,7 @@
 //Routes
 angular.module('authorProjApp',[] ,function($routeProvider, $locationProvider, $stateProvider){
 
-  $stateProvider
-  .state('home', {
-    url: '/',
-    templateUrl: 'app/views/main.html',
-    controller: 'mainController'
-  })
+
 
     $routeProvider
 

@@ -32,7 +32,7 @@ angular.module('authorProjApp', [
 
 
       .when('/home', {
-          templateUrl: 'app/views/main.html',
+        templateUrl: 'app/views/main.html',
           controller: 'mainController'
       })
 
