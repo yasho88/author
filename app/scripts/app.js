@@ -8,11 +8,11 @@
  *
  * Main module of the application.
  */
-angular.module('authorProjApp', [
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-  ]);
+// angular.module('authorProjApp', [
+//     'ngCookies',
+//     'ngResource',
+//     'ngRoute',
+//   ]);
 
 
   var authorProjApp = angular.module("app", ['ngRoute']);
