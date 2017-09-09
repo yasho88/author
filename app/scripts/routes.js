@@ -1,47 +1,47 @@
-//Routes
-angular.module('authorProjApp',[] ,function($routeProvider, $locationProvider, $stateProvider){
+// //Routes
+// angular.module('authorProjApp',[] ,function($routeProvider, $locationProvider, $stateProvider){
 
 
 
-    $routeProvider
+//     $routeProvider
 
 
-    .when('/home', {
-        templateUrl: 'app/views/main.html',
-        controller: 'mainController'
-    })
+//     .when('/home', {
+//         templateUrl: 'app/views/main.html',
+//         controller: 'mainController'
+//     })
 
-    .when('/about',{
+//     .when('/about',{
 
-        templateUrl: 'app/views/about.html',
-        controller: 'aboutController'
+//         templateUrl: 'app/views/about.html',
+//         controller: 'aboutController'
 
-     })
-    .when('/blogs',{
+//      })
+//     .when('/blogs',{
 
-        templateUrl: 'app/views/blogs.html',
-        controller: 'blogsController'
+//         templateUrl: 'app/views/blogs.html',
+//         controller: 'blogsController'
 
-     })
-     .when('/books',{
+//      })
+//      .when('/books',{
 
-        templateUrl: 'app/views/books.html',
-        controller: 'booksController'
+//         templateUrl: 'app/views/books.html',
+//         controller: 'booksController'
 
-     })
-     .when('/contact',{
+//      })
+//      .when('/contact',{
 
-        templateUrl: 'app/views/contact.html',
-        controller: 'contactController'
+//         templateUrl: 'app/views/contact.html',
+//         controller: 'contactController'
 
-     })
-     .when('/recommendation',{
+//      })
+//      .when('/recommendation',{
 
-        templateUrl: 'app/views/recommendation.html',
-        controller: 'recommendationController'
+//         templateUrl: 'app/views/recommendation.html',
+//         controller: 'recommendationController'
 
-     })
-     .otherwise({
-        redirectTo: '/'
-      });
-});
+//      })
+//      .otherwise({
+//         redirectTo: '/'
+//       });
+// });

@@ -15,19 +15,10 @@
 //   ]);
 
 
-  var authorProjApp = angular.module("app", ['ngRoute']);
+  var authorProjApp = angular.module("app", ['ngRoute','ngResource','ngCookies']);
 
   //Routes
-// angular.module('authorProjApp',[] ,function($routeProvider, $locationProvider, $stateProvider){
   authorProjApp.config(['$routeProvider', function($routeProvider) {
-
-    // $stateProvider
-    // .state('home', {
-    //   url: '/',
-    //   templateUrl: 'app/views/main.html',
-    //   controller: 'mainController'
-    // })
-
       $routeProvider
 
 
