@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link href="styles/inspinia/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/inspinia/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link href="styles/inspinia/css/animate.css" rel="stylesheet">
+  <link href="styles/inspinia/css/plugins/dropzone/basic.css" rel="stylesheet">
+  <link href="styles/inspinia/css/plugins/dropzone/dropzone.css" rel="stylesheet">
+  <!-- c3 Charts -->
+  <link href="styles/inspinia/css/plugins/c3/c3.min.css" rel="stylesheet">
+  <!-- Custom -->
+  <link href="styles/inspinia/css/style.css" rel="stylesheet">
+  <link href="styles/inspinia/css/custom.css" rel="stylesheet">
+  <!-- endbuild -->
+</head>
+
+<body ng-app="authorProjApp">
+  <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class = "header">
+  <div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Vinayaka Moorthi</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#">Home</a></li>
+                        <li><a class="page-scroll" href="/about">About me</a></li>
+                        <li><a class="page-scroll" href="/books">Books</a></li>
+                        <li><a class="page-scroll" href="/blogs">Blogs</a></li>
+                        <li><a class="page-scroll" href="/recommendation">My recommendation</a></li>
+                        <li><a class="page-scroll" href="/contact">Get in touch</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+  </div>
+    <div ng-view=""></div>
+  </div>
+ 
+  <div class="footer">
+    <div class="container">
+      <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+    </div>
+  </div>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+  <script>
+    !function (A, n, g, u, l, a, r) {
+    A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+      (A[l].q = A[l].q || []).push(arguments)    
+}, A[l].l = +new Date, a = n.createElement(g),
+      r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+    }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
+
+
+   <script src="styles/inspinia/js/jquery-2.1.1.js"></script>
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular/angular-resource.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-cookies.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.js"></script>
+        <script src="styles/inspinia/js/bootstrap.js"></script>
+        <script src="styles/inspinia/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+        <script src="styles/inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <!-- Custom and plugin javascript -->
+        <script src="styles/inspinia/js/plugins/pace/pace.min.js"></script>
+        <!-- Peity -->
+        <script src="styles/inspinia/js/plugins/peity/jquery.peity.min.js"></script>
+        <!-- Peity -->
+        <script src="styles/inspinia/js/demo/peity-demo.js"></script>
+        <!-- DROPZONE -->
+        <script src="styles/inspinia/js/plugins/dropzone/dropzone.js"></script>
+        <!-- Sparkline -->
+        <script src="styles/inspinia/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <!-- d3 and c3 charts -->
+        <script src="styles/inspinia/js/plugins/d3/d3.min.js"></script>
+        <script src="styles/inspinia/js/plugins/c3/c3.min.js"></script>
+
+  <!-- build:js({.tmp,app}) scripts/scripts.js -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/routes.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

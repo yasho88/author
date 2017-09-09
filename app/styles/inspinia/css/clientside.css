@@ -1,0 +1,220 @@
+.navbar-collapse{
+	background-color:#19a9d5;
+}
+.top-navigation .nav > li > a{
+	color:#fff;
+	transition:.4s;
+}
+.top-navigation .nav > li > a:hover{
+	color:#19a9d5;
+	transition:.4s;
+}
+.top-navigation .nav > li > a:active{
+	color:#19a9d5;
+}
+.margin-top-10{
+	margin-top:10px;
+}
+.margin-bottom-10{
+	margin-bottom:10px;
+}
+.navbar-form-custom .form-control{
+	height:50px;
+	color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    /* padding: 0px; */
+    height: 34px;
+    margin-top: 7px;
+    font-size: 12px;
+    padding-left: 30px;
+}
+input::-webkit-input-placeholder {
+color: #fff !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #fff !important;  
+}
+.wizard > .content > .body {
+position: relative;
+}
+
+.wizard > .steps .current a{
+	background-color:#19a9d5;
+	margin:5px;
+	padding:15px;
+	border-radius:0px;
+}
+.wizard > .steps .disabled a{
+	margin:5px;
+	padding:15px;
+	border-radius:0px;
+}
+.custom-link li > a{
+	border-radius:0px;
+}
+.wizard > .actions .disabled a, .wizard > .actions .disabled a:hover, .wizard > .actions .disabled a:active{
+	background: #eee;
+    color: #aaa;
+    border-radius: 0px;
+}
+.wizard > .actions a, .wizard > .actions a:hover{
+	background: #19a9d5;
+    color: #fff;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.navbar-form-custom2{
+	float: none; 
+    height: auto; 
+    padding: 0;
+    width: 200px;
+    display: inline-table;
+}
+
+.cust-wizard .steps.clearfix {
+    width: 20%;
+    float: left;
+}
+
+.cust-wizard .wizard > .steps > ul {
+    float: left;
+}
+
+.cust-wizard .wizard > .steps > ul > li {
+    width: 100%;
+}
+
+.cust-wizard .content.clearfix {
+    width: 79%;
+    float: left;
+    border-radius: 0px;
+}
+
+.cust-wizard .wizard > .actions > ul {
+    float: none;
+}
+
+.cust-wizard > .wizard > .steps > ul > li > a > span.number {
+    display: none;
+}
+
+.side-nav {
+    padding: 20px 0px;
+}
+
+.side-nav ul.side-nav-table {
+    list-style: none;
+    padding: 0px;
+}
+
+.side-nav ul.side-nav-table li.list-item {
+    padding: 10px 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.enterpise-side-bar ul > li{
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.enterpise-side-bar ul > li > a {
+    color: #333 !important;
+    transition:.4s;
+}
+.enterpise-side-bar ul > li > a.btn-disabled:hover{
+    color:#333 !important;
+    /*background-color: #fafafa;*/
+}
+.enterpise-side-bar ul > li.active > a,
+.enterpise-side-bar ul > li > a:hover{
+	color:#19a9d5 !important;
+	transition:.4s;
+}
+.enterpise-side-bar ul > li.active{
+	color:#19a9d5 !important;
+    background: #fafafa !important;
+}
+.enterpise-side-bar ul > li.active > ul{
+    background: #fff !important;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: #333;
+}
+
+a.no-decoration:hover{
+    color: #333;
+}
+.landing-page li.pricing-title {
+    background-color:#19A9D5;
+}
+.custom-font-size-collapse-item{
+    font-size:large;
+}
+.btn-yellow{
+    background-color:#F4D03F;
+    color:#fff;
+}
+.text-success{
+    color:#1C84C6;
+}
+.for-placehldr::-webkit-input-placeholder {
+   color: #ececec !important;
+}
+
+.for-placehldr:-moz-placeholder{ /* Firefox 18- */
+   color: #ececec !important;  
+}
+
+input::-webkit-input-placeholder{
+   color: #bdbdbd !important;
+}
+
+::-moz-placeholder{  /* Firefox 19+ */
+   color: #ececec !important;  
+}
+
+:-ms-input-placeholder{  
+   color: #ececec !important;  
+}
+
+.custom-nav-search::-webkit-input-placeholder{
+   color: #fff !important;
+}
+
+.custom-nav-search:-moz-placeholder{
+   color: #fff !important;
+}
+
+.favorite{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.favorite .fa-2x{
+    font-size: 1.5em;
+}
+
+.favorite .fa-wishlist{
+    color: hsl(59, 95%, 53%);
+}
+
+.no-overflow{
+    overflow: hidden;
+}

@@ -1,0 +1,392 @@
+
+*:focus {outline: 0;}
+a:focus {
+	outline : none !important;
+	color: none !important;
+}
+#hack-banner{
+	background-image: url('../img/p7.jpg');
+	height: 200px;
+	background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.custom-ibox-padding{
+	    padding:19px 19px 43px;
+}
+.register-section{
+	margin-top:3.8em;
+}
+#registered-numbers{
+	color: red;
+}
+.light-gray-bg{
+	background-color:#FBFBFB;
+}
+.my-border-style{
+	 border: 1px solid #eee;
+    padding-top: 24px;
+}
+.padding-0{
+	padding:0px;
+}
+.padding-5{
+	padding:5px 0px;
+}
+.border-none{
+	border:none;
+}
+#challenge-title h2{
+	font-size:20px;
+}
+.small-text{
+	font-size: 15px;
+}
+.padding-10{
+	padding:10px;
+}
+.padding-top-20{
+	padding-top:20px;
+}
+.padding-30{
+	padding:30px;
+}
+.margin-top-34{
+	margin-top:34px;
+}
+.margin-top-10{
+	margin-top:10px;
+}
+.padding-20{
+	padding:20px;
+}
+.padding-15{
+	padding: 15px;
+}
+.padding-top-10{
+	padding-top:10px;
+}
+.padding-top-30{
+	padding-top:30px;
+}
+#hack-date{
+	font-size: 15px;
+}
+#hack-location{
+	font-size: 14px;
+}
+.btn-circle{
+	width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.btn-linkedin{
+	background-color:#0077b5;
+	color:#fff;
+}
+.panel-body-gray{
+	background-color: #eee !important;
+}
+.skill_tags{
+	padding: 10px 0px;
+	display:block;
+	line-height:20px;
+}
+.btn-custom{
+	background-color:#19a9d5;
+	color:#fff;
+	border:none;
+	font-weight:bold;
+	padding:15px;
+}
+#challenge-details{
+	height:200px;
+	width:auto;
+	background-color:rgba(44, 44, 44, 0.4);
+	color:#fff;
+}
+.block{
+  display: block;
+}
+
+.inline-block{
+  display: inline-block;
+}
+.padding-0{
+	padding: 0px !important;
+}
+.margin-0{
+	margin: 0px !important;
+}
+.margin-10{
+	margin: 10px 0px !important;
+}
+.margin-20{
+	margin: 20px 0px !important;
+}
+.no-float{
+	float: none !important;
+}
+.margin-top-100{
+	margin-top:100px;
+}
+.padding-0{
+	padding: 0px;
+}
+.padding-20{
+	padding:20px;
+}
+.news-feed .nav-header {
+    padding: 8px 25px;
+}
+.news-feed .logo-element {
+	padding: 0px;
+}
+.news-feed .btn-disabled span{
+	cursor: default;
+	color: #486177;
+}
+.news-feed .navbar-default .nav > li > a.btn-disabled:hover, .navbar-default .nav > li > a.btn-disabled:focus{
+	background-color: #2F4050;
+}
+.news-feed .btn-disabled:hover span{
+	color: #486177;
+	background-color: #2F4050;
+}
+.transparent-bg{
+	background: transparent !important;
+}
+
+.white-bg{
+	background: #fff !important;
+}
+.blue-bg{
+	background-color:#19a9d5;
+}
+.prize h4{
+	font-weight: 300;
+    line-height: 2;
+}
+
+.row.prize {
+    padding: 5px 0px;
+}
+.m-xs-cust {
+    margin: 5px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.p-m-cust, .p-m-cust h3{
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.p-m-challenge{
+	padding: 45px 0px;
+}
+.overlay.p-m {
+    height: 100%;
+     width: 100%;
+    background-color: rgba(51, 51, 51,0.6);
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
+.overlay h3 small{
+	color: #fff;
+}
+
+.ibox-content .p-m h3{
+	font-weight: 700;
+    font-size: 1.1em;
+    margin: 30px 10px;
+}
+.nav-header .profile-element span>h1{
+	color: #fff;
+    margin: 10px 0px;
+    text-transform: Uppercase;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+.no-border{
+	border:none;
+}
+.no-bg{
+	background: transparent !important;
+	background-color: transparent !important;
+}
+.team-member-block{
+	width: 150px;
+	text-align: center;
+	height: 150px;
+	display: inline-table;
+}
+.border-none{
+	border-width: 0px;
+	border:0px !important;
+}
+.text-muted{
+	color: #B5ADAD;
+}
+.normal-font{
+	font-weight: 300 !important;
+}
+.nav-tabs-custom{
+	background: #19a9d5;
+}
+.nav-tabs-custom li a{
+	padding:20px;
+	border-radius: 0px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.nav-tabs-custom li a:hover{
+	color: #eee;
+}
+
+.tag-list-cust li a{
+	padding: 5px;
+    border: 0px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    color: indianred;
+}
+
+.cust-lh{
+	line-height: 1.5;
+}
+.timeline-cust .timeline-item .content{
+	min-height: 0px;
+	padding: 13px;
+    padding-left: 30px;
+}
+.timeline-cust .timeline-item .content:hover {
+  background: transparent;
+}
+.timeline-cust .timeline-item .date i {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    border-top: 1px solid #e7eaec;
+    border-bottom: 1px solid #e7eaec;
+    border-left: 1px solid #e7eaec;
+    background: #f8f8f8;
+    z-index: 999;
+    padding: 10px 0px;
+    background-color: transparent;
+}
+.timeline-cust:first-child .timeline-item .content{
+	padding-top: 4px;
+}
+.timeline-cust:first-child .timeline-item .date i{
+	padding-top: 0px;
+}
+.timeline-cust .timeline-item:last-child .content{
+	border-left: 0px;
+	padding-top: 0px;
+}
+.timeline-cust .timeline-item:last-child .date i{
+	padding-top: 0px;
+}
+.timeline-cust .timeline-item .date{
+	width: 0px;
+}
+.no-list-style{
+	list-style:none;
+}
+hr.dotted{
+	border-top: 3px dashed #333;
+}
+.line-height{
+	line-height:30px;
+}
+.btn-circle-2{
+	width:50px;
+	height:50px;
+	border-radius:50px;
+}
+.text-blue{
+	color:#19a9d5;
+}
+.outside-text{
+	padding:10px 15px;
+	border-bottom:1px solid #e7eaec;
+}
+.cust-modal .modal-header .close {
+    opacity: 1;
+    line-height: 1.9;
+}
+.cust-modal.inmodal .modal-header{
+	padding: 20px;
+}
+.cust-modal .form-group input{
+	padding: 20px;
+}
+.cust-tab-pane .panel-body{
+	padding: 40px;
+}
+.modal-footer-custom {
+    padding: 15px;
+    border-top: 1px solid #e5e5e5;
+
+}
+.logo-element img{
+	display: block;
+    max-width: 100%;
+    height: 60px;
+    margin: 0 auto;
+}
+h6.xs-font{
+	font-size: 9px;
+}
+
+.wizard > .actions{
+	display: inline-block;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background: #92CCDE;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0px;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: #19A9D5;
+    color: #fff;
+    cursor: default;
+}
+
+::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
+:-moz-placeholder { color: #333333;}
+::-moz-placeholder {color: #333333;}
+:-ms-input-placeholder {color: #333333;}
+
+
+.live-div{
+	border: 2px solid #e7eaec;
+    color: #333;
+}
+
+.live-div.active{
+	background-color: #3B7FB9;
+	color: #fff;
+}
+
+.timeline-cust-2 .timeline-item .content{
+	padding: 7px;
+}
+
+.timeline-cust-2 .timeline-item .content p{
+	font-size: 12px;
+}
+
+.timeline-cust-2 .timeline-item .content p>span{
+	font-size: 9px;
+}	
